@@ -44,7 +44,7 @@ I then went through each picture to make sure they were clear enough to be used 
 <span id = 'model'></span>
 **2. Building a Model** (Notebook/02_Training_The_Model)  
 Building and training the model was the part that took the longest to do. In the notebook, I have only included my most successful model, however, I spent a minimum of 5 days on the modeling process building numerous models from scratch, but ultimately using a pretrained model offered by Keras called `MobileNet` to do transfer learning as it predicted images a lot faster, was smaller in size, and still had a great accuracy with little loss. If you would like to see some of the other models I tried, **[here](https://drive.google.com/file/d/1QhdZPJpYJ8YSL0VPdbk4H6YuBUI6JDgN/view?usp=sharing)** is a link to my Colab notebook I was training the model on, as Colab Pro offers more GPU space and ran much faster than on my local CPU.  
-<p align = 'center'> <img src = './Notebooks/notebook_imgs/cm.png' width = '450'> </p>    
+<p align = 'center'> <img src = './Notebooks/notebook_imgs/cm.png' width = '600'> </p>    
 
 >In case you're unsure as to how to read this confusion matrix, the left is the actual class name, and the bottom is the predicted class. The 1.0 going down diagonally is showing that I had a 100% accuracy in predicting all the classes using the model.  
 
