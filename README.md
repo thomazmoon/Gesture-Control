@@ -44,13 +44,13 @@ I then went through each picture to make sure they were clear enough to be used 
 <span id = 'model'></span>
 **2. Building a Model** (Notebook/02_Training_The_Model)  
 Building and training the model was the part that took the longest to do. In the notebook, I have only included my most successful model, however, I spent a minimum of 5 days on the modeling process building numerous models from scratch, but ultimately using a pretrained model offered by Keras called `MobileNet` to do transfer learning as it predicted images a lot faster, was smaller in size, and still had a great accuracy with little loss. If you would like to see some of the other models I tried, **[here](https://drive.google.com/file/d/1QhdZPJpYJ8YSL0VPdbk4H6YuBUI6JDgN/view?usp=sharing)** is a link to my Colab notebook I was training the model on, as Colab Pro offers more GPU space and ran much faster than on my local CPU.  
-<p align = 'center'> <img src = './notebooks/notebook_imgs/cm.png' width = '450'> </p>    
+<p align = 'center'> <img src = './Notebooks/notebook_imgs/cm.png' width = '450'> </p>    
 
 >In case you're unsure as to how to read this confusion matrix, the left is the actual class name, and the bottom is the predicted class. The 1.0 going down diagonally is showing that I had a 100% accuracy in predicting all the classes using the model.  
 
 Although I had a number of models that were performing similarly, if not with better loss, the reason I ultimately ended up choosing `MobileNet` is because the speed at which it made predictions was around 0.068 seconds and my 2nd fastest model was at around 0.65 seconds almost 10 times slower resulting a very noticeable lag. Another contributing factor to use `MobileNet` was because it was considerably smaller being only 38MB vs my original model which was around 600mb.
 
-<p align = 'center'> <img src = './notebooks/notebook_imgs/results.png'> </p>
+<p align = 'center'> <img src = './Notebooks/notebook_imgs/results.png'> </p>
 
 One downside to using `MobileNet` however is the fact that it expects a square image, and one that isn't too high in resolution. Because my input shape was originally 480x640. I had to resize my image to be 224x224 (default size) which when viewed would lead to a significant resolution loss making this difficult to use from far away. However, as I am mostly testing this to be used on my computer where I won't be too far away it doesn't pose that significant an issue.
 
@@ -64,7 +64,7 @@ One more thing to note about the main code is that there is a sleep function of 
 In order to close the window made by OpenCV, simply press `q`
 
 **See the final result in action**
-<img src = './notebooks/notebook_imgs/to_gif.gif'>
+<img src = './Notebooks/notebook_imgs/to_gif.gif'>
 
 <span id = 'conclusions'></span>
 ## Conclusions
@@ -78,7 +78,7 @@ There might be more work to be done on this project, such as adding an another c
 For the future, I would like to expand on this idea and implement it onto many Google Products such as a gesture controlled google slides presentation, swiping to view next steps on google maps, gesture short cuts on google docs or spreadsheets and even gesture control pretrained for specific actions.  
 
 Even further down, we should be able to even sell a special webcam in order to make a smart tv even smarter and add certain short cuts and controls with just some simple calibrations. The possibilities of gesture control for many things in the future, once the kinks are worked out, it almost seems as though just a part of Tony Stark's technology will be accessible to everyone.  
-<img src = './notebooks/notebook_imgs/iron_man.gif' width = '800'>
+<img src = './Notebooks/notebook_imgs/iron_man.gif' width = '800'>
 
 <span id = 'sources'></span>
 ## Sources
