@@ -13,7 +13,7 @@
 1. [Sources](#sources)
 <span id = 'prob'></span>
 ## Problem Statement
-During the pandemic because a lot more people have started working from home and classes were held online, the number of people who own or use a webcam has grown, and according to [GrandViewResearch](https://www.grandviewresearch.com/industry-analysis/webcams-market), webcam demands and usage are expected to grow even more in the future.   
+During the pandemic because a lot more people have started working from home and classes were held online. The number of people who own or use a webcam has grown, and according to [GrandViewResearch](https://www.grandviewresearch.com/industry-analysis/webcams-market), webcam demands and usage are expected to grow even more in the future.   
 
 <p align = 'center'> <img src = './Notebooks/notebook_imgs/webcam.png' width = '550'> </p>
 
