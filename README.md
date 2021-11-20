@@ -15,7 +15,8 @@
 ## Problem Statement
 During the pandemic because a lot more people have started working from home and classes were held online, the number of people who own or use a webcam has grown, and according to [GrandViewResearch](https://www.grandviewresearch.com/industry-analysis/webcams-market), webcam demands and usage are expected to grow even more in the future.   
 
-<p align = 'center> <img src = './notebooks/notebook_imgs/webcam.png' width = '400'> </p>
+<p align = 'center'> <img src = './notebooks/notebook_imgs/webcam.png' width = '400'> </p>
+![](./notebooks/notebook_imgs/webcam.png width='400')
 
 As part of Google's Development team **(hypothetically)**, I was tasked with creating a new feature utilizing webcams that Google could implement onto their many services they already offer. Additionally they would also like for it to primarily be made using products and resources offered by them to showcase what Google has to offer and is capable of.
 
@@ -77,7 +78,7 @@ There might be more work to be done on this project, such as adding an another c
 ## Moving Forward
 For the future, I would like to expand on this idea and implement it onto many Google Products such as a gesture controlled google slides presentation, swiping to view next steps on google maps, gesture short cuts on google docs or spreadsheets and even gesture control pretrained for specific actions.  
 
-Even further down, we should be able to even sell a special webcam in order to make a smart tv even smarter and add certain short cuts and controls with just some simple calibrations. The possibilities of gesture control for many things in the future, once the kinks are worked out, it almost seems as though just a part of Tony Stark's technology will be accessible to everyone.
+Even further down, we should be able to even sell a special webcam in order to make a smart tv even smarter and add certain short cuts and controls with just some simple calibrations. The possibilities of gesture control for many things in the future, once the kinks are worked out, it almost seems as though just a part of Tony Stark's technology will be accessible to everyone.  
 <img src = './notebooks/notebook_imgs/iron_man.gif' width = '800'>
 
 <span id = 'sources'></span>
