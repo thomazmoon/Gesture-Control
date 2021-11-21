@@ -27,7 +27,7 @@ Picture any of these scenarios:
 * You're eating some hot wings and watching YouTube video on the computer, when you need to rewind and pause the video, but don't want to get your keyboard or mouse dirty.  
 * Connecting your laptop to a tv with a very short HDMI cable and the couch 10 feet away. You don't have a wireless mouse and someone needs to walk up to the laptop in order to pause the video. 
 * You have a certain habit, lets say scratching your head when working on something, but you often forget to save your work.
-* You want to know what the next direction is on Google Maps but you can swipe your phone screen without reaching over in an unsafe manner.
+* You want to know what the next direction is on Google Maps but you can't swipe your phone screen without reaching over in an unsafe manner.
 * You're presenting via Google Slides but don't have a remote clicker to help you transition to new slides or go back. Or just want to have both hands free for dramatic effects and gestures
 
 These are all problems that can be solved with simple hand gestures and a webcam (or phone camera) with this new API if backed by Google. Imagine with just the wave of your hand being able to rewind or fast forward a video, use an old habit to save documents automatically you might otherwise forget to save while working on it, swiping your fingers to see what your next direction on google maps will be, or set certain gestures to indicate to go to the next slide without the need of a presentation remote.  
