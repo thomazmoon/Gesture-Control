@@ -5,15 +5,17 @@
 1. [Problem Statement](#prob)
 1. [Executive Summary](#sum)
 1. [The Process](#process)
-  1. [Collecting the Data](#collect)
-  1. [Building a Model](#model)
-  1. [Testing The Model](#test)
+    1. [Collecting the Data](#collect)
+    1. [Building a Model](#model)
+    1. [Testing The Model](#test)
 1. [Conclusions](#conclusions)
 1. [Moving Forward](#forward)
 1. [Sources](#sources)
+
+
 <span id = 'prob'></span>
 ## Problem Statement
-During the pandemic because a lot more people have started working from home and classes were held online, the number of people who own or use a webcam has grown, and according to [GrandViewResearch](https://www.grandviewresearch.com/industry-analysis/webcams-market), webcam demands and usage are expected to grow even more in the future.   
+Because of the pandemic, there has been a rise in webcam use for work and school. According to [GrandViewResearch](https://www.grandviewresearch.com/industry-analysis/webcams-market), webcam demands and usage are expected to grow even more in the future.   
 
 <p align = 'center'> <img src = './Notebooks/notebook_imgs/webcam.png' width = '550'> </p>
 
@@ -23,13 +25,14 @@ As part of Google's Development team **(hypothetically)**, I was tasked with cre
 ## Executive Summary
 Picture any of these scenarios:
 * You're eating some hot wings and watching YouTube video on the computer, when you need to rewind and pause the video, but don't want to get your keyboard or mouse dirty.  
-* Connecting your laptop to a tv with a very short HDMI cable and the couch 10 feet away. You don't have a wireless mouse and someone needs to walk up to the laptop in order to pause, play, rewind or fast forward.
+* Connecting your laptop to a tv with a very short HDMI cable and the couch 10 feet away. You don't have a wireless mouse and someone needs to walk up to the laptop in order to pause the video. 
 * You have a certain habit, lets say scratching your head when working on something, but you often forget to save your work.
-* You want to know what the next direction is on Google Maps but you can swipe your phone screen without reaching over in an unsafe manner.
+* You want to know what the next direction is on Google Maps but you can't swipe your phone screen without reaching over in an unsafe manner.
 * You're presenting via Google Slides but don't have a remote clicker to help you transition to new slides or go back. Or just want to have both hands free for dramatic effects and gestures
 
 These are all problems that can be solved with simple hand gestures and a webcam (or phone camera) with this new API if backed by Google. Imagine with just the wave of your hand being able to rewind or fast forward a video, use an old habit to save documents automatically you might otherwise forget to save while working on it, swiping your fingers to see what your next direction on google maps will be, or set certain gestures to indicate to go to the next slide without the need of a presentation remote.  
-Although for this project, I have focused on a video utilization aspect where a user can raise or lower the volume, play or pause and fast forward or rewind the video, and take a screenshot of the current screen. The success has shown that these things can easily be done and implemented, opening the door to the possibilities of gesture control for multiple areas.  
+
+Although for this project, I have focused on a video utilization aspect where a user can take a screenshot,. raise or lower the volume, play or pause, and fast forward or rewind the video. The success has shown that these things can easily be done and implemented, opening the door to the possibilities of gesture control for multiple areas.  
 
 <span id = 'process'></span>
 ## The Process
