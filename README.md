@@ -1,4 +1,4 @@
-# Gesture Control Project
+# Gesture Control Project 
 ##### Thomaz Moon
 ---
 ## Table of Content
